@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>The Storage setItem() Method</h1>
+
+    <p>This example demonstrates how to use the setItem() method to set the value of a specified session storage item.
+    </p>
+
+    <button onclick="createItem()">Set session storage item</button>
+
+    <h2>Get the value</h2>
+
+    <p>Click the button to get the item value:</p>
+
+    <button onclick="readValue()">Get the item value</button>
+
+    <p id="demo"></p>
+
+    <script>
+        var array = ["masum", "mahabur", "mim", "jim", "lamia"];
+        function createItem() {
+            sessionStorage.setItem("test1", array);
+            sessionStorage.setItem("test2", "Lorem jvjc");
+
+        }
+
+        function readValue() {
+            var x = sessionStorage.getItem("test1");
+            var y = sessionStorage.getItem("test2")
+            document.getElementById("demo").innerHTML = x + "<br>" + y;
+            array.push("mim")
+        }
+
+    </script>
+</body>
+
+</html>

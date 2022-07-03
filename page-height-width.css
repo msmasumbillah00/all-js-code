@@ -1,0 +1,38 @@
+#main-div {
+    height: 500px;
+    width: 700px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    overflow: auto;
+    padding: 10px;
+
+}
+
+#second-div {
+    background-color: coral;
+    height: 1000px;
+    width: 800px;
+}
+
+#third-div {
+    height: 500px;
+    width: 700px;
+    background-color: rgb(110, 255, 255);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+    top: 0;
+    right: 0;
+
+}
+
+body {
+    padding-bottom: 1000px;
+}

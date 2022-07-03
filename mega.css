@@ -1,0 +1,60 @@
+.section-div {
+    background-color: rgb(255, 240, 34);
+    height: 400px;
+    width: 600px;
+    margin: 10px;
+    padding: 10px;
+    overflow: scroll;
+    margin-top: 40px;
+}
+
+.section-div h1 {
+    text-align: center;
+}
+
+#value-div ul span {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.light-dis {
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.light-dis image {
+    height: 100%;
+    width: 100%;
+}
+
+.npt {
+    width: 60%;
+    padding-left: 15px;
+    background-color: initial;
+    margin-top: 5px;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+.npt100 {
+    width: 150px;
+    padding-left: 15px;
+    background-color: initial;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+#tarnsition-div {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    transition-delay: .5s;
+    transition-duration: 2s;
+    transition-property: all;
+}
+
+#tarnsition-div:hover {
+    width: 300px;
+    background-color: rgb(48, 104, 255);
+}
