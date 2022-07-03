@@ -472,6 +472,10 @@ function removeChildFun() {
     list.removeChild(list.firstChild);
     // list.parentNode.removeChild(list);
 }
+function readyStateFun() {
+    var x = document.readyState;
+    document.getElementById("readyState-dis").innerHTML = x;
+}
 /*class All {
     constructor(name, fName, mName, age) {
         this.name = name;
